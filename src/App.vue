@@ -3,7 +3,6 @@
     <nav-header></nav-header>
     <progress-bar></progress-bar>
     <checkout-form></checkout-form>
-    <order-review></order-review>
   </div>
 </template>
 
