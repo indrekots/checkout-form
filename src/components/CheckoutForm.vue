@@ -1,14 +1,14 @@
 <template>
   <section class="form">
-    <h3>Your Name and Demographic Information</h3>
-    <label>First Name
-      <input type="text">
+    <h3>Your Name</h3>
+    <label for="first-name">First Name
+      <input id="first-name" type="text">
     </label>
-    <label>Last Name
-      <input type="text">
+    <label for="last-name">Last Name
+      <input id="last-name" type="text">
     </label>
-    <label>Email Address
-      <input type="text">
+    <label for="email">Email Address
+      <input id="email"type="text">
     </label>
 
     <h3>Your Shipping Address</h3>
