@@ -4,42 +4,15 @@
     <label>First Name
       <input type="text">
     </label>
-    <label>Middle Initial
-      <input type="text">
-    </label>
     <label>Last Name
       <input type="text">
-    </label>
-    <label>Age
-      <select name="age">
-        <option>&lt;18</option>
-        <option>18-25</option>
-        <option>26-35</option>
-        <option>36-50</option>
-        <option>&gt;50</option>
-      </select>
-    </label>
-    <label>Gender
-      <select name="gender">
-        <option>Male</option>
-        <option>Female</option>
-      </select>
     </label>
     <label>Email Address
       <input type="text">
     </label>
-    <label>Confirm Email Address
-      <input type="text">
-    </label>
-    <label>Put me on the mailing list?
-      <input class="inline" type="checkbox">
-    </label>
 
     <h3>Your Shipping Address</h3>
     <label>First Name
-      <input type="text">
-    </label>
-    <label>Middle Initial
       <input type="text">
     </label>
     <label>Last Name
@@ -89,9 +62,6 @@
 
     <h3>Your Billing Address</h3>
     <label>First Name
-      <input type="text">
-    </label>
-    <label>Middle Initial
       <input type="text">
     </label>
     <label>Last Name
