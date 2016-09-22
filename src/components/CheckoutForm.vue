@@ -1,14 +1,14 @@
 <template>
   <section class="form">
-    <h3>Your Name</h3>
+    <h3>Contact Information</h3>
     <label for="first-name">First Name
-      <input id="first-name" type="text">
+      <input id="first-name" type="text" placeholder="John" autocomplete="given-name" autofocus required="">
     </label>
     <label for="last-name">Last Name
-      <input id="last-name" type="text">
+      <input id="last-name" type="text" placeholder="Smith" autocomplete="family-name" required>
     </label>
     <label for="email">Email Address
-      <input id="email"type="text">
+      <input id="email" type="email" placeholder="john@smith.com" autocomplete="email" required>
     </label>
 
     <h3>Your Shipping Address</h3>
