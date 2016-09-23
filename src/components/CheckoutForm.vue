@@ -50,28 +50,27 @@
         <input id="ship-country" type="text" placeholder="Narnia" autocomplete="country">
         <label class="active" for="ship-country">Country</label>
       </div>
+    </div>
 
-
-
-        <h3>Your Credit Card Information</h3>
-        <div class="cc-warning"><em>Note: don't enter any actual credit card info!</em></div>
-        <label>Credit Card Number
-          <input type="text">
-        </label>
-        <label>Credit Card Type
-          <select name="cc">
-            <option>Visa</option>
-            <option>American Express</option>
-            <option>Mastercard</option>
-            <option>Discover</option>
-          </select>
-        </label>
-        <label>Expiration Date
-          <input type="text" placeholder="MM"><input type="text" placeholder="YY">
-        </label>
-        <label>CVV
-          <input type="number">
-        </label>
+    <h3>Your Credit Card Information</h3>
+    <div class="row">
+      <div class="input-field col s12 m4">
+        <input id="cc-number" type="text" placeholder="Credit Card Number" autocomplete="cc-number">
+        <label class="active" for="cc-number">Credit Card Number</label>
+      </div>
+      <div class="input-field col s12 m4">
+        <input id="cc-exp-month" type="text" placeholder="MM" autocomplete="cc-exp-month">
+        <label class="active" for="cc-exp-month">Expiration Month</label>
+      </div>
+      <div class="input-field col s12 m4">
+        <input id="cc-exp-year" type="text" placeholder="YY" autocomplete="cc-exp-year">
+        <label class="active" for="cc-exp-year">Expiration Year</label>
+      </div>
+      <div class="input-field col s12 m4">
+        <input id="cc-csc" type="text" placeholder="Number at the back of your card" autocomplete="cc-csc">
+        <label class="active" for="cc-csc">CVV</label>
+      </div>
+    </div>
 
         <h3>Your Billing Address</h3>
         <label>First Name
@@ -98,9 +97,6 @@
         <label>Country
           <input type="text">
         </label>
-      </div>
-
-    </div>
   </section>
 </template>
 
