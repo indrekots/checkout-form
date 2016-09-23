@@ -72,31 +72,43 @@
       </div>
     </div>
 
-        <h3>Your Billing Address</h3>
-        <label>First Name
-          <input type="text">
-        </label>
-        <label>Last Name
-          <input type="text">
-        </label>
-        <label>Company
-          <input type="text">
-        </label>
-        <label>Address Line 1
-          <input type="text">
-        </label>
-        <label>City
-          <input type="text">
-        </label>
-        <label>State/Province
-          <input type="text">
-        </label>
-        <label>Postal Code
-          <input type="text">
-        </label>
-        <label>Country
-          <input type="text">
-        </label>
+    <h3>Your Billing Address</h3>
+    <div class="row">
+      <div class="input-field col s12 m4">
+        <input id="bill-first-name" type="text" placeholder="John" autocomplete="given-name" required>
+        <label class="active" for="bill-first-name">First Name</label>
+      </div>
+      <div class="input-field col s12 m4">
+        <input id="bill-last-name" type="text" placeholder="Smith" autocomplete="family-name" required>
+        <label class="active" for="bill-last-name">Last Name</label>
+      </div>
+      <div class="input-field col s12 m4">
+        <input id="bill-company" type="text" placeholder="Company Name" autocomplete="organization">
+        <label class="active" for="bill-company">Company</label>
+      </div>
+      <div class="input-field col s12 m4">
+        <input id="bill-address" type="text" placeholder="221B Baker Street" autocomplete="street-address">
+        <label class="active" for="bill-address">Address</label>
+      </div>
+      <div class="input-field col s12 m4">
+        <input id="bill-city" type="text" placeholder="London" autocomplete="on">
+        <label class="active" for="bill-city">City</label>
+      </div>
+      <div class="input-field col s12 m4">
+        <input id="bill-state" type="text" placeholder="State/Province" autocomplete="on">
+        <label class="active" for="bill-state">State/Province</label>
+      </div>
+      <div class="input-field col s12 m4">
+        <input id="bill-postal" type="text" placeholder="Postal Code" autocomplete="postal-code">
+        <label class="active" for="bill-postal">Postal Code</label>
+      </div>
+      <div class="input-field col s12 m4">
+        <input id="bill-country" type="text" placeholder="Narnia" autocomplete="country">
+        <label class="active" for="bill-country">Country</label>
+      </div>
+    </div>
+
+
   </section>
 </template>
 
