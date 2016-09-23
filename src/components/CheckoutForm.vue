@@ -1,9 +1,9 @@
 <template>
   <section class="form">
     <contact-info></contact-info>
-    <shipping-addr></shipping-addr>
+    <!--<shipping-addr></shipping-addr>
     <credit-card></credit-card>
-    <billing-addr></billing-addr>
+    <billing-addr></billing-addr>-->
   </section>
 </template>
 
@@ -22,6 +22,7 @@ export default {
   },
   data() {
     return {
+      checkoutStep: 0,
     };
   },
 };
